@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #ff0000;
+    background: linear-gradient(135deg, #ff4e50, #f9d423);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -12,6 +12,9 @@ body {
 
 .container {
     max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 h1 {
@@ -26,10 +29,12 @@ h1 span {
 .coming-soon {
     font-size: 2em;
     margin: 20px 0;
+    font-weight: bold;
 }
 
 .description {
     margin-bottom: 40px;
+    font-size: 1.2em;
 }
 
 #countdown {
@@ -51,4 +56,5 @@ h1 span {
 .label {
     margin-top: 5px;
     font-size: 1em;
+    text-transform: uppercase;
 }
