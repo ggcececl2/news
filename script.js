@@ -1,6 +1,14 @@
-// Set the date we're counting down to
-var countDownDate = new Date();
-countDownDate.setDate(countDownDate.getDate() + 35);
+// Check if a countdown end date is already stored in local storage
+var countDownDate = localStorage.getItem("countDownDate");
+
+// If no countdown end date is found, set it to 69 days from now
+if (!countDownDate) {
+    countDownDate = new Date();
+    countDownDate.setDate(countDownDate.getDate() + 69);
+    localStorage.setItem("countDownDate", countDownDate);
+} else {
+    countDownDate = new Date(countDownDate);
+}
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
