@@ -1,63 +1,54 @@
-/* Reset some default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #1f4037, #99f2c8);
     margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ff0000;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #fff;
     text-align: center;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
-    transition: transform 0.3s ease;
-}
-
-.container:hover {
-    transform: scale(1.05);
-}
-
-.container img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 15px;
-    margin-bottom: 20px;
+    max-width: 600px;
 }
 
 h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+h1 span {
+    font-style: italic;
+}
+
+.coming-soon {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time span {
     font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-}
-
-a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.admin-name {
     font-weight: bold;
-    color: #ff6347;
+}
+
+.label {
+    margin-top: 5px;
+    font-size: 1em;
 }
