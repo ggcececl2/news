@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/gg/Days-v1-0-Template/video-background/gmaps"
+		},
+		{
+			"path": "../../../Desktop/gg/Days-v1-0-Template/video-background/images"
+		},
+		{
+			"path": "../../../Desktop/gg/Days-v1-0-Template/video-background/js"
+		},
+		{
+			"path": "../../../Desktop/gg/Days-v1-0-Template/video-background/LICENSE"
+		},
+		{
+			"path": "../../../Desktop/gg/Days-v1-0-Template/video-background/YTPlayer"
+		},
+		{
+			"path": "../../../Desktop/gg/Days-v1-0-Template/video-background/css"
+		}
+	],
+	"settings": {}
+}
